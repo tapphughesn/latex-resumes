@@ -1,0 +1,281 @@
+%-------------------------
+% Resume in Latex
+% Based on: https://github.com/sb2nov/resume
+% and Jake Gutierrez's version of it
+% at https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% inspired by https://practicaltypography.com/resumes.html
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\input{preamble.tex}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+{\basictitle \Huge Nicholas Tapp-Hughes}
+\\
+
+
+% Links
+
+\href{https://www.nicholastapphughes.com}{
+    \faLink
+    \thinspace \thinspace        
+    \myuline{nicholastapphughes.com}} $|$
+\href{mailto:nic98@cs.unc.edu}{
+    \faEnvelope
+    \thinspace \thinspace
+    \myuline{nicholas.tapphughes@gmail.com}} $|$
+\href{https://www.linkedin.com/in/nicholas-tapp-hughes-b75641142/}{
+    \faLinkedin
+    \thinspace \thinspace
+    \myuline{Nick Tapp-Hughes}} $|$
+\href{https://github.com/tapphughesn}{
+    \faGithub
+    \thinspace \thinspace
+\myuline{tapphughesn}}
+
+% Mission Statement
+
+\vspace{5mm}
+\textbf{Full Stack Engineer} focused on...
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+      
+    \resumeSubheading
+        {University of North Carolina at Chapel Hill}{}
+      {B.S. Applied Mathematics, B.S. Computer Science}{August 2017 -- May 2021}
+      \resumeItemListStart
+      
+        \resumeItem{Cumulative GPA: 3.92/4, \hspace{1mm} Math GPA: 3.87/4, \hspace{1mm} CS GPA: 3.97/4}
+
+      \resumeItemListEnd
+      
+      \vspace{-4pt} \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{ \hspace{-2mm} \small M.S. Computer Science} & \textit{ \small August 2021--May 2023} \\
+    \end{tabular*}
+
+      \vspace{-1mm}
+      \resumeSubheading
+      {North Carolina School of Science and Mathematics}{August 2015 -- May 2017}
+      {}{}
+      
+      \vspace{-5mm}
+      
+  \resumeSubHeadingListEnd
+  
+%     %-----------PROJECTS-----------
+% \section{Coding Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\href{https://github.com/hkrsmk/beepboop-shopee-code-league-2020}{\myuline{\textbf{Shopee Code League}}} $|$ \textit{Python, Jupyter Notebooks, Google Cloud Platform}}{June -- Aug 2020}
+%           \resumeItemListStart
+%             \resumeItem{Set up data pipeline: Kaggle > cloud storage > Google Colab Notebooks\\for faster analysis}
+%             \resumeItem{Set up github repository for team}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{Epic Systems Corp., 2023--2025}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Developed a customer feedback-driven system for configuring how findings and recommendations from radiology reports appear and are acted upon in downstream clinical workflows}
+        
+        \resumeItem{Fixed QA reports (\char`~1 per week) across the full stack: Typescript/CSS, C\#/.NET, \href{https://en.wikipedia.org/wiki/MUMPS}{M}, and SQL}
+        \resumeItem{Migrated multiple application screens from Visual Basic to Web with React and .NET}
+
+        \resumeItem{Contributed to LLM-driven functionality to automatically pull out key findings from radiology reports, which was shown to lead to earlier lung cancer staging in 70\% of cases at The Christ Hospital \href{https://www.beckershospitalreview.com/healthcare-information-technology/ai/lets-make-our-physicians-superhuman-how-christ-hospital-uses-ai-in-epic/}{(link)}}
+        
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Software Engineering R\&D Intern}{Sila Nanotechnologies Inc., Summer 2022}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Worked on a computer vision problem (under NDA) at Sila, a start-up company based in Alameda, CA, that produces high energy density lithium-ion battery materials}
+        \resumeItem{Used computer vision techniques to obtain high-precision physical measurements}
+        \resumeItem{Pushed algorithmic improvements, enforced best programming practices, wrote documentation, recommended methodology, and advised maintenance and future development strategy}
+        
+      \resumeItemListEnd
+        
+    
+    \resumeSubheading
+      {Graduate Student Shape Analysis Researcher}{UNC Chapel Hill, Fall 2021--Spring 2023}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Conducted Master's research on shape and skeletal representations (s-reps) under Dr. Stephen Pizer with applications in shape statistics and medical image analysis}
+        \resumeItem{Developed a new method for fitting s-reps to complicated non-slabular shapes}
+        \resumeItem{Published scientific article in the Journal of Mathematical Vision and Imaging in 2025}
+        
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Graduate Research Assistant}{UNC Gillings School of Public Health, Fall 2021--2025}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Developed simulations to study nation-wide tobacco use and community-wide mental health crises}
+        \resumeItem{Presented progress at weekly meetings, generated figures for publication, and wrote up methodology}
+        \resumeItem{Published two papers on smoking behavior simulation modeling in 2025}
+      \resumeItemListEnd
+
+\resumeSubheading
+      {Medical Computing R\&D Intern}{Kitware Inc., Summer 2021}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Worked on a DARPA-funded Point-of-Care Ultrasound (POCUS) project under Dr. Stephen Aylward}
+        \resumeItem{Developed deep learning methods in PyTorch for segmentation and classification of ultrasound images as part of a larger pipeline for automatically detecting collapsed lung (pneumothorax)}
+        \resumeItem{Helped develop a manual segmentation tool intended for use by a physician to quickly annotate a large number of medical images according to a defined workflow.}
+      \resumeItemListEnd
+      
+
+    \resumeSubheading
+      {Undergraduate Medical Imaging Researcher}{UNC Chapel Hill, Spring 2020--Spring 2021}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Applied state-of-the-art deep learning methods to medical image analysis problems with applications in the research of common neurological developmental disorders}
+        \resumeItem{Created NetSeg, a GUI tool for 3D segmentation of subcortical brain structures in MRI}
+        \resumeItem{Authored an undergraduate thesis and was awarded honors for a successful defense}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Cornell Mathematics REU Researcher}{Ithaca, NY, Summer 2019}
+      {}{}
+      \vspace{-5.5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Conducted research during a 9-week NSF-funded undergraduate research program in applied mathematics, focused on physical dynamics and optimal control}
+        \resumeItem{Investigated a novel optimal control problem with a team of undergraduate researchers from across the U.S. under professor Andy Borum}
+      \resumeItemListEnd
+      
+     \resumeSubHeadingListEnd
+     
+ %-----------Publications-----------
+\section{Publications}
+
+\resumeItemListStart
+    \resumeItem{Stephen M. Pizer, Zhiyuan Liu, Junjie Zhao, Nicholas Tapp-Hughes, James Damon, Miaomiao Zhang, JS Marron, Mohsen Taheri, Jared Vicory, ``Interior Object Geometry via Fitted Frames," Available: Springer, \href{https://rdcu.be/eFX0G}{https://rdcu.be/eFX0G}.}
+        
+    \resumeItem{Nicholas Tapp Hughes, ``A 3d U-net for Segmentation of Subcortical Structures In MR Images of 12 and 24 Month-old Infants," Available: Carolina Digital Repository, \href{https://cdr.lib.unc.edu/concern/honors_theses/4f16c8286}{https://cdr.lib.unc.edu/concern/honors\_theses/4f16c8286}.}
+        
+      \resumeItemListEnd
+    
+     %-----------Projects-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Nick Tapp-Hughes's Blog}{}
+      {}{}
+      \vspace{-5mm}
+      
+      \resumeItemListStart
+        \resumeItem{A personal website and blog built using Vite/React and hosted on AWS with Cloudflare DNS services. The posts range from highly technical to casually philosophical, with more underway. \href{https://github.com/tapphughesn/blog}{(link)}}
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Smoking Behavior Microsimulation Model}{}
+      {}{}
+      \vspace{-5mm}
+      
+      \resumeItemListStart
+        \resumeItem{A 2\textsuperscript{nd} order Markov chain multinomial logistic regression model simulating the smoking behavior of individuals over the course of their lifetimes, scaled up to the entire US adult population. Accompanying logic for orchestrating experiments and visualizing the results. Developed while working as a research assistant at the UNC Gillings School of Public Health. \href{https://github.com/tapphughesn/menthol-model}{(link)}}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {NetSeg}{}
+      {}{}
+      \vspace{-5mm}
+      
+      \resumeItemListStart
+        \resumeItem{A GUI tool for deep-learning based segmentation of MR images, developed while conducting research for an undergraduate honors thesis under Dr. Martin Styner. \href{https://github.com/tapphughesn/NetSeg}{(link)}}
+      \resumeItemListEnd
+      
+      \vspace{-2mm}
+      
+     \resumeSubHeadingListEnd
+      
+      %-----------Extracurriculars-----------
+\section{Leadership and Involvement}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {President, Carolina Math Club}{UNC Chapel Hill, Fall 2020 -- Spring 2021}
+      {}{}
+      \vspace{-5mm}
+      
+      \resumeItemListStart
+        \resumeItem{Coordinated social and competitive events, faculty talks, professional development events, and study sessions for undergraduate mathematics students at UNC}
+        \resumeItem{Facilitated outreach and publicity, ensured steady club membership by organizing 2 events per month with leadership team}
+        \resumeItem{Collaborated on events with other UNC organizations such as the MathGems Seminar Series, Association for Women in Mathematics (AWM), UNC Society for Industrial and Applied Mathematics (SIAM), and the UNC Math Problem Solving Seminar}
+      \resumeItemListEnd
+      
+      \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Hobbies and Interests} & {} \\
+    \end{tabular*}
+    \small{I enjoy hiking, lifting weights, rock climbing and playing (and studying) Texas Hold'em.}
+    
+    \vspace{-2mm}
+    \resumeSubHeadingListEnd
+    
+ %-----------Honors-----------
+\section{Honors}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Phi Beta Kappa, Member}{Fall 2020 -- Present}
+      {}{}
+      \vspace{-5mm}
+      
+    \resumeSubheading
+    {UNC Graduate with Honors and Highest Distinction}{May 2021}
+    {}{}
+    
+
+    \vspace{-5mm}
+    \resumeSubHeadingListEnd
+
+
+%
+%\iffalse
+ \iftrue
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technologies}{: Python, git, Linux, Docker, AWS, C, C++, C\#, Rust, SQL, MongoDB, Typescript, React, \LaTeX} \\
+     \phantom{blah}
+     \\
+     \textbf{Areas of expertise}{: Machine Learning and AI, Data Analysis and Processing, Full-Stack Web Development}
+    }}
+ \end{itemize}
+\fi
+
+%-------------------------------------------
+\end{document}
