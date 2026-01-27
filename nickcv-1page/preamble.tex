@@ -75,10 +75,10 @@ UprightFont = basictitlefont
 
 % Sections formatting
 \titleformat{\section}
-  {\normalfont\Large\bfseries\raggedright} % Bold and large font
-  {}{0pt}                                 % No prefix (like 1.1)
-  {}                                      % Code before title
-  [{\color{gray}\titlerule}]              % Horizontal rule AFTER title
+  {\normalfont\Large\bfseries\raggedright}
+  {}{0pt}                                 
+  {}                                     
+  [{\color{gray}\titlerule}]            
 
 %-------------------------
 % Custom commands
@@ -114,8 +114,10 @@ UprightFont = basictitlefont
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeBigItemListStart}{\begin{itemize}[label={}, leftmargin=0.05in, label={}]}
+\newcommand{\resumeBigItemListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
