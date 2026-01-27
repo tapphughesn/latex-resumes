@@ -74,10 +74,11 @@ UprightFont = basictitlefont
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
-\titleformat{\section}{
-    {\color{gray}\titlerule} \vspace{-5pt}
-    \vspace{8pt}\scshape\raggedright\normalfont
-}{}{0pt}{}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\raggedright} % Bold and large font
+  {}{0pt}                                 % No prefix (like 1.1)
+  {}                                      % Code before title
+  [{\color{gray}\titlerule}]              % Horizontal rule AFTER title
 
 %-------------------------
 % Custom commands
